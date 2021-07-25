@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13BAC5726AD036200A0AFA4 /* RepoNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13BAC5626AD036200A0AFA4 /* RepoNetworkManager.swift */; };
+		D13BAC5926AD394C00A0AFA4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13BAC5826AD394C00A0AFA4 /* NetworkManager.swift */; };
+		D145799326ABD70000D0B80C /* PublicRepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D145799226ABD70000D0B80C /* PublicRepoViewModel.swift */; };
 		D1B7F93526A963DD008F6ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F93426A963DD008F6ED9 /* AppDelegate.swift */; };
-		D1B7F93726A963DD008F6ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F93626A963DD008F6ED9 /* ViewController.swift */; };
 		D1B7F93A26A963DD008F6ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B7F93826A963DD008F6ED9 /* Main.storyboard */; };
 		D1B7F93C26A963DF008F6ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B7F93B26A963DF008F6ED9 /* Assets.xcassets */; };
 		D1B7F93F26A963DF008F6ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B7F93D26A963DF008F6ED9 /* LaunchScreen.storyboard */; };
 		D1B7F94A26A963DF008F6ED9 /* DemoGitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F94926A963DF008F6ED9 /* DemoGitAppTests.swift */; };
+		D1B7F95A26A97459008F6ED9 /* PublicRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F95926A97459008F6ED9 /* PublicRepoViewController.swift */; };
+		D1B7F95C26A9774C008F6ED9 /* PublicRepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7F95B26A9774C008F6ED9 /* PublicRepoTableViewCell.swift */; };
+		D1DF6B6F26AABD7100F0CD51 /* RepoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF6B6E26AABD7100F0CD51 /* RepoExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D13BAC5626AD036200A0AFA4 /* RepoNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoNetworkManager.swift; sourceTree = "<group>"; };
+		D13BAC5826AD394C00A0AFA4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D145799226ABD70000D0B80C /* PublicRepoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepoViewModel.swift; sourceTree = "<group>"; };
 		D1B7F93126A963DD008F6ED9 /* DemoGitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B7F93426A963DD008F6ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1B7F93626A963DD008F6ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1B7F93926A963DD008F6ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B7F93B26A963DF008F6ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B7F93E26A963DF008F6ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		D1B7F94526A963DF008F6ED9 /* DemoGitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B7F94926A963DF008F6ED9 /* DemoGitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGitAppTests.swift; sourceTree = "<group>"; };
 		D1B7F94B26A963DF008F6ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B7F95926A97459008F6ED9 /* PublicRepoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepoViewController.swift; sourceTree = "<group>"; };
+		D1B7F95B26A9774C008F6ED9 /* PublicRepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicRepoTableViewCell.swift; sourceTree = "<group>"; };
+		D1DF6B6E26AABD7100F0CD51 /* RepoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D13D277526A9963C00E137BA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D13BAC5826AD394C00A0AFA4 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D145799426ABD73600D0B80C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D13BAC5626AD036200A0AFA4 /* RepoNetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D1B7F92826A963DD008F6ED9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				D1B7F93426A963DD008F6ED9 /* AppDelegate.swift */,
-				D1B7F93626A963DD008F6ED9 /* ViewController.swift */,
+				D1DF6B7026AAC2CB00F0CD51 /* Extension */,
+				D13D277526A9963C00E137BA /* Networking */,
+				D145799426ABD73600D0B80C /* Services */,
+				D1B7F95426A96C32008F6ED9 /* Model */,
+				D1B7F95526A96C44008F6ED9 /* View */,
+				D1B7F95626A96C5D008F6ED9 /* Controller */,
 				D1B7F93826A963DD008F6ED9 /* Main.storyboard */,
 				D1B7F93B26A963DF008F6ED9 /* Assets.xcassets */,
 				D1B7F93D26A963DF008F6ED9 /* LaunchScreen.storyboard */,
@@ -94,6 +125,38 @@
 				D1B7F94B26A963DF008F6ED9 /* Info.plist */,
 			);
 			path = DemoGitAppTests;
+			sourceTree = "<group>";
+		};
+		D1B7F95426A96C32008F6ED9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D145799226ABD70000D0B80C /* PublicRepoViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1B7F95526A96C44008F6ED9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1B7F95B26A9774C008F6ED9 /* PublicRepoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1B7F95626A96C5D008F6ED9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1B7F95926A97459008F6ED9 /* PublicRepoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1DF6B7026AAC2CB00F0CD51 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF6B6E26AABD7100F0CD51 /* RepoExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B7F93726A963DD008F6ED9 /* ViewController.swift in Sources */,
 				D1B7F93526A963DD008F6ED9 /* AppDelegate.swift in Sources */,
+				D1DF6B6F26AABD7100F0CD51 /* RepoExtension.swift in Sources */,
+				D145799326ABD70000D0B80C /* PublicRepoViewModel.swift in Sources */,
+				D1B7F95A26A97459008F6ED9 /* PublicRepoViewController.swift in Sources */,
+				D13BAC5926AD394C00A0AFA4 /* NetworkManager.swift in Sources */,
+				D13BAC5726AD036200A0AFA4 /* RepoNetworkManager.swift in Sources */,
+				D1B7F95C26A9774C008F6ED9 /* PublicRepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
